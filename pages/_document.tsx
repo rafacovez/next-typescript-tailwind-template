@@ -9,7 +9,13 @@ class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head/>
+                <Head>
+                    <meta charSet="UTF-8"/>
+                    <meta name="description" content="NextJS app"/>
+                    <meta name="keywords" content="NextJS, TypeScript, Tailwind"/>
+                    <meta name="author" content="Rafa"/>
+                    <link rel="shortcut icon" href="../public/favicon.ico"/>
+                </Head>
                 <body>
                     <Main/>
                     <NextScript/>
