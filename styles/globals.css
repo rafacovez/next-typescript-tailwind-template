@@ -3,17 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+  .Main {
+    @apply w-10/12 max-w-3xl mx-auto;
+  }
+
   h1,
   h2,
   h3,
   h4,
   h5 {
-    @apply leading-none font-bold text-3xl;
+    @apply leading-tight font-bold text-3xl;
   }
 
   p,
   span {
-    @apply leading-relaxed my-5;
+    @apply leading-loose my-5;
   }
 
   a {
