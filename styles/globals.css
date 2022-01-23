@@ -8,7 +8,7 @@
   h3,
   h4,
   h5 {
-    @apply md:leading-none sm:leading-tight font-bold text-3xl;
+    @apply leading-none font-bold text-3xl;
   }
 
   p,
