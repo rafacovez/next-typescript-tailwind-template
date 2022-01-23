@@ -4,6 +4,6 @@ To start your project, run the following command: `npx create-next-app -e https:
 
 ### Compared to the default `create-next-app`, this example:
 
-- Has TypeScript and TailwindCSS pre-configured
+- Has TypeScript, TailwindCSS and Prettier pre-configured
 - Has default `Home.module.css` and `pages/api/` stripped out
 - Adds `.env` to `.gitignore`
