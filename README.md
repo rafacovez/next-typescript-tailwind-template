@@ -1,6 +1,6 @@
 ## NextJS, TypeScript and TailwindCSS template
 
-To start your project, run the following command: `npx create-next-app -e https://github.com/rafdidact/next-typescript-tailwind-template`
+To start your project, run the following command: `git clone https://github.com/rafdidact/next-typescript-tailwind-template`
 
 ### Compared to the default `create-next-app`, this example:
 
