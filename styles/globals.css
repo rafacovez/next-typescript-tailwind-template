@@ -4,7 +4,7 @@
 
 @layer base {
   .Main {
-    @apply w-10/12 max-w-3xl mx-auto;
+    @apply w-10/12 mobile:max-w-sm tablet:max-w-lg desktop:max-w-xl mx-auto;
   }
 
   h1,
@@ -12,16 +12,19 @@
   h3,
   h4,
   h5 {
-    @apply leading-tight font-bold text-3xl;
+    @apply mobile:text-4xl tablet:text-5xl desktop:text-6xl;
   }
 
-  p,
+  p {
+    @apply mobile:text-xl tablet:text-2xl;
+  }
+
   span {
-    @apply leading-loose my-5;
+    @apply text-base;
   }
 
   a {
-    @apply underline;
+    @apply text-base underline cursor-pointer;
   }
 
   a:hover {
@@ -29,10 +32,6 @@
   }
 
   button {
-    @apply border-solid border-2 border-black py-2 px-4;
-  }
-
-  button:hover {
-    @apply opacity-80;
+    @apply border-solid border-2 border-black py-4 px-5 hover:opacity-95;
   }
 }
