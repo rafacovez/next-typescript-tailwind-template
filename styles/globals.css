@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Saira+Extra+Condensed:wght@700&display=swap');
+
 :root {
   --black: #1d1d1d;
   --white: #ffffff;
+  --bg-color: #f7f1e0;
+  --pale-blue: #95bae1;
+  --dark-blue: #0e1d51;
 }
 
 @tailwind base;
@@ -18,18 +23,26 @@
   h4,
   h5 {
     @apply mobile:text-4xl tablet:text-5xl desktop:text-6xl;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
   }
 
   p {
     @apply mobile:text-xl tablet:text-2xl;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
 
   span {
     @apply text-base;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
 
   a {
     @apply text-base underline cursor-pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
 
   a:hover {
@@ -38,5 +51,7 @@
 
   button {
     @apply border-solid border-2 border-black py-4 px-5 hover:opacity-95;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
 }
