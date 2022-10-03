@@ -1,6 +1,6 @@
 {
-  "name": "next-typescript-tailwind-template",
-  "private": true,
+  "name": "1942-landing-page",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
