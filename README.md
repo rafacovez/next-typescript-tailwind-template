@@ -1,6 +1,6 @@
 ## NextJS, TypeScript and TailwindCSS template
 
-To start your project, run the following command: `git clone https://github.com/rafdidact/next-typescript-tailwind-template`
+To start your own project, you can either click on "Use this template" from this repositorie's page on [github.com](https://github.com) or run the following commands and feel superior: `git clone https://github.com/rafdidact/next-typescript-tailwind-template`
 
 ### Compared to the default `create-next-app`, this example:
 
