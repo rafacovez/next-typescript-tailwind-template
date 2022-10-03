@@ -3,7 +3,7 @@
 - [Why?](#how-to-use-it)
 - [How?](#compared-to-the-default-create-next-app-this-template)
 
-## Compared to the default `create-next-app`, this template:
+### Compared to the default `create-next-app`, this template:
 
 - Has [TypeScript](https://github.com/microsoft/TypeScript), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), [Prettier](https://github.com/prettier/prettier) and [FontAwesome libraries](https://github.com/FortAwesome/react-fontawesome) pre-configured
 - Has default `Home.module.css` and `pages/api/` stripped out
