@@ -1,7 +1,4 @@
-# Table of contents
-
-- [Why?](#how-to-use-it)
-- [How?](#compared-to-the-default-create-next-app-this-template)
+This template is my solution for a full-stack web developing kickstart.
 
 ### Compared to the default `create-next-app`, this template:
 
