@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="Main">
       <Head>
-        <title>NextJS, TypeScript and Tailwind CSS template</title>
+        <title>Don Julio 1942® Tequila | Don Julio Tequila</title>
         <meta charSet="UTF-8" />
         <meta name="description" content="NextJS app" />
         <meta name="keywords" content="NextJS, TypeScript, Tailwind" />

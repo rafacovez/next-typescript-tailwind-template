@@ -13,8 +13,12 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    background-color: var(--bg-color);
+  }
+
   .Main {
-    @apply w-10/12 mobile:max-w-sm tablet:max-w-lg desktop:max-w-xl mx-auto;
+    @apply w-10/12 mobile:max-w-lg tablet:max-w-3xl desktop:max-w-5xl mx-auto py-4;
   }
 
   h1,
@@ -22,21 +26,32 @@
   h3,
   h4,
   h5 {
-    @apply mobile:text-4xl tablet:text-5xl desktop:text-6xl;
+    @apply uppercase;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: 700;
   }
 
+  h1 {
+    @apply text-6xl;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-2xl;
+  }
+
   p {
-    @apply mobile:text-xl tablet:text-2xl;
+    @apply text-sm leading-relaxed;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
   }
 
   span {
-    @apply text-base;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    @apply text-base uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
   }
 
   a {
@@ -50,8 +65,8 @@
   }
 
   button {
-    @apply border-solid border-2 border-black py-4 px-5 hover:opacity-95;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    @apply py-4 px-24 hover:opacity-95 uppercase text-2xl;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
   }
 }
